@@ -1,4 +1,5 @@
 import { View } from 'react-native'
+import { Button } from '../components/button'
 
 import { Welcome } from '../components/welcome'
 import { Steps } from '../components/steps'
@@ -9,6 +10,8 @@ export default function Index() {
             <Welcome />
 
             <Steps />
+
+            <Button.Title>Começar</Button.Title>
 
         </View>
     )
